@@ -1,0 +1,700 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.body {
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+
+/*===============Heder style===============*/
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header {
+  border: 1px solid #ececec;
+}
+.header {
+  padding: 24px 0;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+}
+.navigation-list {
+  display: flex;
+}
+.address-mail-tel {
+  display: flex;
+}
+
+.address-mail-tel {
+  margin-left: auto;
+}
+.address-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.footer-information .container {
+  display: flex;
+  flex-direction: column;
+}
+.phone-svg,
+.phone-svg-two {
+  margin-right: 10px;
+}
+
+.phone-svg,
+.phone-svg-two {
+  fill: #757575;
+}
+.heder-tel-link:hover .phone-svg-two,
+.heder-tel-link:focus .phone-svg-two {
+  fill: #2196f3;
+}
+.heder-tel-link:hover,
+.heder-tel-link:focus {
+  color: #2196f3;
+}
+.heder-mail-link:hover,
+.heder-mail-link:focus {
+  color: #2196f3;
+}
+.heder-mail-link:hover .phone-svg,
+.heder-mail-link:focus .phone-svg {
+  fill: #2196f3;
+}
+/*========================*/
+.heading-text {
+  width: 696px;
+  height: 120px;
+}
+.text-item {
+  padding-top: 200px;
+  padding-left: 244px;
+  padding-right: 244px;
+  margin-bottom: 30px;
+}
+.button-item {
+  padding-left: 485px;
+  padding-right: 485px;
+  padding-bottom: 200px;
+}
+.item {
+  padding-top: 94px;
+  width: 279px;
+}
+.principles-categories .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-right: 30px;
+}
+.section-profile .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-profile {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.item-list {
+  display: flex;
+  justify-content: space-between;
+}
+/*========Vector=========*/
+.pix-principles-one::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url("../image/principles/ante.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.pix-principles-two::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url("../image/principles/clo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.pix-principles-three::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url("../image/principles/diagram.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.pix-principles-four::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-image: url("../image/principles/astronaut.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.prof-ul {
+  margin-bottom: 50px;
+}
+
+.staff-people {
+  display: flex;
+  align-items: center;
+}
+.staff-people {
+  background: #f5f4fa;
+}
+.staff {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+.staff-people .container {
+  display: flex;
+  flex-direction: column;
+}
+.staff-container {
+  display: flex;
+  padding-bottom: 94px;
+}
+.social-photo-gal {
+  padding-bottom: 94px;
+}
+
+.social-photo {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  height: auto;
+}
+.social-photo:not(:last-child) {
+  margin-right: 30px;
+}
+.name-social {
+  padding-top: 30px;
+}
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
+.social-icon-one:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.social-icon-svg {
+  width: 20px;
+  height: 20px;
+}
+.staff-people-work {
+  text-align: center;
+}
+.staff-people-position {
+  text-align: center;
+  margin-top: 10px;
+}
+/*=======staff color========*/
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
+}
+.social-list-link:hover .social-icon-svg,
+.social-list-link:focus .social-icon-svg {
+  fill: #ffffff;
+}
+.social-icon-svg {
+  fill: #afb1b8;
+}
+/*============end==============*/
+
+.list-footer-link:hover,
+.list-footer-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-icon-svg {
+  fill: #ffffff;
+}
+
+.logo-footer {
+  padding-top: 60px;
+}
+.address-list {
+  margin-top: 9px;
+}
+.feedback-list {
+  margin-top: 9px;
+}
+.telephone-list {
+  margin-top: 9px;
+  padding-bottom: 60px;
+}
+/*==========Section permanent============*/
+.text-permanent {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+.permanent-list {
+  display: flex;
+  justify-content: center;
+}
+.social-permanent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.permanent-item {
+  padding-bottom: 94px;
+}
+.permanent-item:not(:last-child) {
+  margin-right: 30px;
+}
+.footer-link-social {
+  display: flex;
+}
+.footer-information-two .container {
+  display: flex;
+}
+
+.permanent-svg {
+  fill: #afb1b8;
+}
+
+.social-permanent:hover,
+.social-permanent:focus {
+  border: 1px solid #2196f3;
+}
+
+.social-permanent:hover .permanent-svg,
+.social-permanent:focus .permanent-svg {
+  fill: #2196f3;
+}
+
+/*==============000==============*/
+.list-footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #49464665;
+}
+.footer-icon-svg {
+  width: 20px;
+  height: 20px;
+}
+.text-footer {
+  padding-top: 72px;
+  padding-left: 84px;
+}
+.footer-link-social {
+  padding-left: 84px;
+}
+.size-list {
+  margin-top: 20px;
+}
+.size-list:not(:last-child) {
+  margin-right: 10px;
+}
+/*======Portfolio======*/
+.portfolio-section .container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-tup {
+  display: flex;
+}
+
+.button-tup {
+  padding-top: 94px;
+  margin-bottom: 0px;
+}
+
+.navigation-list-button:not(:last-child) {
+  margin-right: 8px;
+}
+.categories-site {
+  display: flex;
+  flex-wrap: wrap;
+}
+.categories-site {
+  margin-top: 34px;
+  padding-bottom: 94px;
+}
+.categories-li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.categories-li:nth-child(3n) {
+  margin-right: 0px;
+}
+.categories-li:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
+.portfolio-signature {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.portfolio-signature-two {
+  margin-top: 4px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+.border-card {
+  border: 1px solid #eeeeee;
+}
+
+/*=====End Portfolio======*/
+.color-logo-first {
+  color: #2196f3;
+}
+.color-logo-second {
+  color: #000000;
+}
+
+.color-logo-first,
+.color-logo-second {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.categories-li:hover {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+/*Heder color and*/
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: #2196f3;
+}
+.current {
+  color: #2196f3;
+}
+.heder-tel-link,
+.heder-mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.heading-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.navigation-button {
+  font-family: "Roboto", sans-sherif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: #212121;
+}
+/*======button wigth======*/
+.portfolio-section .one {
+  width: 73px;
+  height: 38px;
+}
+.portfolio-section .two {
+  width: 128px;
+  height: 38px;
+}
+.portfolio-section .three {
+  width: 145px;
+  height: 38px;
+}
+.portfolio-section .four {
+  width: 103px;
+  height: 38px;
+}
+.portfolio-section .five {
+  width: 130px;
+  height: 38px;
+}
+/*======button wigth end======*/
+.navigation-button:hover,
+.navigation-button:focus {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.portfolio-signature {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.portfolio-signature-two {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.text-permanent {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.footer-information {
+  background-color: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../image/bg/background.jpg");
+}
+.footer-information-two {
+  background-color: #2f303a;
+}
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.feedback-mail {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.telephone-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.telephone-link:hover,
+.telephone-link:focus {
+  color: #2196f3;
+}
+
+.feedback-mail:hover,
+.feedback-mail:focus {
+  color: #2196f3;
+}
+/*Индекс*/
+
+.button-index {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  border: none;
+  color: #ffffff;
+  background: #188ce8;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+}
+
+.button-index:hover,
+.button-index:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.principles {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.principles-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.profile {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.staff {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.staff-people-work {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.staff-people-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*Color logo futter*/
+
+.footer-color-logo-first {
+  color: #2196f3;
+}
+.footer-color-logo-second {
+  color: #ffffff;
+}
+
+.footer-color-logo-first,
+.footer-color-logo-second {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.text-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+/*========================*/
