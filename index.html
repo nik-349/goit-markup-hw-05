@@ -82,7 +82,7 @@
               </h1>
             </li>
             <li class="button-item list">
-              <button class="button-index" type="button">
+              <button class="button-index" type="button" data-modal-open>
                 Заказать услугу
               </button>
             </li>
@@ -139,6 +139,9 @@
                 width="370"
                 height="294"
               />
+              <div class="relative-profile">
+                <p class="relative-text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+              </div>
             </li>
             <li class="social-photo-gal list">
               <img
@@ -147,6 +150,9 @@
                 width="370"
                 height="294"
               />
+              <div class="relative-profile">
+                <p class="relative-text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+              </div>
             </li>
             <li class="social-photo-gal list">
               <img
@@ -155,6 +161,9 @@
                 width="370"
                 height="294"
               />
+              <div class="relative-profile">
+                <p class="relative-text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -446,5 +455,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="close-size">
+            <use class="" href="./image/symbol-defs.svg#icon-close-btn"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
